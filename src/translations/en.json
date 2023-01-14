@@ -1,0 +1,120 @@
+{
+   "login": {
+      "login": "Login",
+      "forgot": "Forgot Password"
+   },
+   "homeheader": {
+      "speciality": "Medical specialty",
+      "searchdoctor": "Find a doctor by specialty",
+      "health-facitily": "Health Facitily",
+      "select-room": "Select Hospital",
+      "doctor": "Doctor",
+      "select-doctor": "Choose a good Doctor",
+      "fee": "Fee",
+      "check-health": "General health Check",
+      "support": "Support",
+      "welcome": "Welcome "
+   },
+   "homepage": {
+      "outStanding-doctor": "Last Week Outstanding Doctors",
+      "more-infor": "More Information",
+      "specialty-popular": "Popular Specialty"
+   },
+   "banner": {
+      "title1": "the foundation of the medical system",
+      "title2": "health - care sector",
+      "child1": "Medical Specialties",
+      "child2": "remote consultation",
+      "child3": "general check up",
+      "child4": "Medical tests",
+      "child5": "mental health",
+      "child6": "regular dental checkups"
+   },
+   "menu": {
+      "admin": {
+         "manage-user": "Users System",
+         "manage-doctor": "Manage Doctors",
+         "manage-admin": "Manage Admins",
+         "crud": "CRUD Users",
+         "crud-redux": "CRUD Redux",
+         "clinic": "Clinics",
+         "manage-clinic": "Manage Clinics",
+         "specialty": "Specialties",
+         "manage-specialty": "Manage Specialtys",
+         "handbook": "Handbooks",
+         "manage-handbook": "Manage Handbooks"
+      },
+      "doctor": {
+         "manage-schedule": "Manage Doctor's Schedule",
+         "manage-patient": "Manage Doctor's Patient"
+      }
+   },
+   "manage-user": {
+      "add": "Create A New User",
+      "email": "Email",
+      "password": "Password",
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "phone-number": "Phone Number",
+      "address": "Address",
+      "gender": "Gender",
+      "position": "Position",
+      "role": "Role",
+      "save": "Save An User",
+      "edit": "Update An User",
+      "image": "Images",
+      "listUsers": "List Users"
+   },
+   "manage-schedule": {
+      "title": "Manage your doctor's plan",
+      "select_doctor": "Choose a Doctor",
+      "date": "Choose Date",
+      "save": "Save Information"
+   },
+   "patient": {
+      "detail-doctor": {
+         "schedule": "Schedule",
+         "non-schedule": "There are currently no appointments for this doctor. Please choose another time...",
+         "choose": "Choose",
+         "book-free": "and booking (free)"
+      },
+      "extraInfor-doctor": {
+         "address": "Address of examination",
+         "price": "Price: ",
+         "seemore": "See More",
+         "payment": "You can pay the cost in the form of:  ",
+         "hide": "Hide "
+      },
+      "booking-modal": {
+         "title": "Form Information ",
+         "fullName": "Full name",
+         "phone": "Phone",
+         "email": "Email",
+         "address": "Address",
+         "reason": "Reason",
+         "birthday": "BirthDay",
+         "gender": "Gender",
+         "confirm": "Confirm",
+         "close": "Cancel",
+         "free-booking": "Free Booking"
+      }
+   },
+   "admin": {
+      "manage-doctor": {
+         "title": "Manage Doctors",
+         "choose-doctor": "Choose A Doctor",
+         "introduce": "Product Information",
+         "information": "Post About The Doctor",
+         "add": "Add New The Doctor ",
+         "save": "Save The Doctor",
+         "price": "Price",
+         "payment": "Payment",
+         "province": "Province",
+         "nameClinic": "Clinic's Name",
+         "addressClinic": "Clinic's Address",
+         "note": "Note",
+         "select-speciality": "Specialty",
+         "select-clinic": "Clinic"
+      }
+   }
+}

@@ -1,0 +1,201 @@
+.home-header-container {
+   height: 70px;
+   width: 100%;
+   padding: 5px 45px 0px;
+   position: sticky;
+   top: 0;
+   background-color: white;
+   z-index: 99;
+
+   .home-header-content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+
+      .left-content {
+         width: 20%;
+         display: flex;
+         align-items: center;
+
+         .header-logo {
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+            transform: scale(0.5, 0.5);
+            margin-left: -45px;
+         }
+         i {
+            cursor: pointer;
+            font-size: 25px;
+            color: grey;
+         }
+      }
+      .center-content {
+         width: 55%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         .child-content {
+            .subs-title {
+               font-size: 12px;
+               font-weight: 400;
+            }
+         }
+      }
+      .right-content {
+         width: 25%;
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+         .support {
+            padding-right: 50px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            i {
+               font-size: 15px;
+               margin-right: 5px;
+            }
+         }
+         .language-vi {
+            cursor: pointer;
+            opacity: 0.2;
+            &.active {
+               opacity: 1;
+               background-color: bisque;
+               border-radius: 50%;
+               padding: 10px;
+               span {
+                  color: orange;
+               }
+            }
+            &:hover {
+               opacity: 1;
+            }
+         }
+         .language-en {
+            cursor: pointer;
+            margin: 0 10px;
+            opacity: 0.2;
+            &.active {
+               opacity: 1;
+               background-color: bisque;
+               border-radius: 50%;
+               padding: 10px;
+               span {
+                  color: blue;
+               }
+            }
+            &:hover {
+               opacity: 1;
+            }
+         }
+      }
+   }
+}
+.home-header-banner {
+   height: 485px;
+   background-image: url("../../assets/bookingcare-cover-4.jpg");
+
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   background-color: #464646;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   @media only screen and (max-width: 767px) {
+      /* The file size of this background image is 93% smaller
+         * to improve page load speed on mobile internet connections */
+      background-image: url("../../assets/bookingcare-cover-4.jpg");
+   }
+   .content-up {
+      background-image: linear-gradient(
+         rgba(126, 126, 126, 0.25),
+         rgba(255, 255, 255, 0.1)
+      );
+      height: 65%;
+      padding: 15px 0px;
+      .title1 {
+         text-align: center;
+         font-size: 30px;
+         text-shadow: 1px 1px 1px #333;
+         margin: 30px 0px 5px;
+         color: white;
+         text-transform: uppercase;
+      }
+      .title2 {
+         text-align: center;
+         font-size: 30px;
+         text-shadow: 1px 1px 1px #333;
+         color: white;
+         text-transform: uppercase;
+      }
+      .search {
+         width: fit-content;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 15px auto 0px;
+         padding: 10px;
+         border-radius: 25px;
+         background: #f7d800;
+         i {
+            margin: 0 20px;
+         }
+         input {
+            height: 30px;
+            width: 360px;
+            background: #f7d800;
+            font-size: 15px;
+         }
+      }
+   }
+   .content-down {
+      background-image: linear-gradient(
+         rgba(255, 255, 255, 0.1),
+         rgba(255, 255, 255, 0.9),
+         rgba(255, 255, 255, 1)
+      );
+      height: 35%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 10x;
+      .options {
+         text-align: center;
+         display: flex;
+         gap: 50px;
+         justify-content: center;
+
+         .option-child {
+            width: 125px;
+            .a {
+               color: #003366;
+               &:hover {
+                  color: #49bce2;
+               }
+               cursor: pointer;
+               text-decoration: none;
+               .icon-child {
+                  background: white;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  margin: 0 auto;
+                  padding: 10px;
+               }
+               i {
+                  font-size: 20px;
+               }
+               .text-child {
+                  font-size: 16px;
+                  font-weight: 500;
+                  text-transform: capitalize;
+               }
+            }
+         }
+      }
+   }
+}

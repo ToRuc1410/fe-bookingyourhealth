@@ -1,0 +1,148 @@
+.slick-prev {
+   // position: relative !important;
+   left: -50px !important;
+   z-index: 50;
+   width: 44px !important;
+   height: 50px !important;
+   background: #fff !important;
+   border: 2px solid #d7d7d7 !important;
+   border-radius: 25%;
+   margin-bottom: 5px !important;
+   &:hover {
+      background: #eceaea !important;
+   }
+}
+.slick-prev:before,
+.slick-next:before {
+   font-family: FontAwesome !important;
+   color: red !important;
+}
+.slick-next {
+   right: -50px !important;
+   margin-bottom: 5px !important;
+   z-index: 90;
+   width: 44px !important;
+   height: 50px !important;
+   background: #fff !important;
+   border: 2px solid #d7d7d7 !important;
+   border-radius: 25%;
+   &:hover {
+      background: #eceaea !important;
+   }
+}
+.slick-disabled {
+   display: none !important;
+}
+
+.section-share {
+   &.section-specialty {
+      background: #f5f5f5;
+   }
+   &.section-outstanding-doctor {
+      background: #f5f5f5;
+   }
+   &.section-about {
+      height: 500px;
+      padding: 0 100px;
+      border-top: 1px solid #f5f5f5;
+      border-bottom: 1px solid #f5f5f5;
+   }
+
+   .section-body {
+      .section-customize {
+         .outer-bg {
+            border: 1px solid rgb(206, 206, 206);
+            margin-right: 15px;
+            padding: 15px;
+         }
+         &.section-specialty:hover {
+            cursor: pointer;
+            color: #45c3d2;
+         }
+         .bg-img {
+            background-position: center center;
+            background-repeat: no-repeat !important;
+            background-size: cover;
+            background-color: #eee;
+            width: 278px;
+            height: 150px;
+
+            &.section-medical-facility {
+               background-image: url("../../assets/Medical-facility/benh-vien-thu-cuc.jpg");
+            }
+            &.section-outstanding-doctor {
+               // background-image: url('../../assets/OutStanding-Doctor/doctor1.jpg');
+               width: 120px;
+               height: 120px;
+               margin: 0 auto 20px;
+               border-radius: 50%;
+            }
+            &.section-handbook {
+               background-image: url("../../assets/HandBook/adn-thai-nhi.png");
+            }
+         }
+      }
+   }
+}
+.section-share {
+   height: 330px;
+
+   .section-container {
+      margin: 0px 100px;
+      display: flex;
+      flex-direction: column;
+
+      .section-header {
+         height: 60px;
+         margin-bottom: 30px;
+         padding-top: 30px;
+         .title-section {
+            font-size: 22px;
+            font-weight: 600;
+         }
+         .btn-section {
+            cursor: pointer;
+            text-transform: uppercase;
+            background-color: #ebebeb;
+            border-radius: 10%;
+            padding: 10px 15px;
+            float: right;
+            display: block;
+            &:hover {
+               color: white;
+               background: #f7d800;
+            }
+         }
+      }
+   }
+   .section-about-header {
+      font-size: 22px;
+      font-weight: 600;
+      padding: 10px 10px;
+   }
+   .section-about-content {
+      display: flex;
+      gap: 20px;
+      width: 100%;
+      .content-left {
+         width: 60%;
+      }
+      .content-right {
+         width: 40%;
+         border-left: 1px solid #f5f5f5;
+         padding-left: 40px;
+         p {
+            text-align: justify;
+            font-style: italic;
+            font-size: 20px;
+         }
+      }
+   }
+}
+
+.home-footer {
+   text-align: center;
+   padding: 8px 0;
+   background-color: azure;
+}
+//reset slick slider
